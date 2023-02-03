@@ -108,7 +108,7 @@ Powerlevel10: https://github.com/romkatv/powerlevel10k - The ZShell plugin to ad
 Fzf: https://github.com/junegunn/fzf.vim - Fuzzy Finder <br> 
 Used for Vim and the command line you can type ctr + r and then search your zsh history or in vim ctr p search for files <br>
 
-Vim .vimrc: https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/ - customize your Vim experience. <br>
+Vim .vimrc: https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/ - customize Vim <br>
 
 Vim Plug: https://github.com/junegunn/vim-plug - By far the easiest Vim Plugin Manager <br>
 Vim Dev Icons: https://github.com/ryanoasis/vim-devicons - Adds Icons to Nerd Tree <br>
