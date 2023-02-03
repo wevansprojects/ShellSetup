@@ -80,7 +80,6 @@ Follow all of the other options to install the Vim Plugins.
 
 My Personal Vim Setup with Plugins and Install Scripts please note this is for ZSH Shell ONLY:
 ![ExampleScreenshotofMyVimSetup](https://user-images.githubusercontent.com/73401706/213860268-c13e7191-ed49-4ec4-9813-54a1a46679f0.png)
-(Note this screenshot also includes a customized zsh shell look and custom icons please see my zsh repository for this setup).
 
 My Vim Plugin Setup and Workflow:
 With this setup you will find you can use Vim as a substitution
@@ -88,17 +87,6 @@ to vscode in many cases. Vim doesn't have the vscode asthetics
 but these plugins will get you there.
 Multiple components combined allow me to use vim with auto completion
 Linting for error checking and in some cases Fixers to format code.
-
-Vim Plugins Used:
-ale,
-youcompleteme, 
-nerdtree,
-fzf,
-vim-nerdtree-syntax-highlight,
-vim-puppet,
-vim-airline,
-vim-airline-themes,
-vim-devicons
 
 Linters Used:
 shellcheck,tidy,csslint,eslint,puppet-lint,flake8
@@ -121,7 +109,11 @@ Vim NerdTree: https://github.com/preservim/nerdtree - Easy to use file viewer me
 Vim NerdTree Syntax Highlighting: https://github.com/tiagofumo/vim-nerdtree-syntax-highlight - spice up you're Nerd Tree <br>
 Vim Airline: https://github.com/vim-airline/vim-airline - A status window for Vim <br>
 Vim Airline Themes: https://github.com/vim-airline/vim-airline-themes - Vim Airline Themes <br>
+Vim Nginx: https://github.com/chr4/nginx.vim - Syntax Checking for Nginx Configuration <br>
+Vim Puppet: https://github.com/rodjek/vim-puppet - Syntax Checking for Puppet .pp files <br>
+Vim Scriptease: https://github.com/tpope/vim-scriptease - For making Vim Plugins <br>
 Vim Ale: https://github.com/dense-analysis/ale - With this we can check code for syntax errors <br>
+Vim Terraform:https://github.com/hashivim/vim-terraform.git - Syntax highlighting for Terraform projects <br>
 
 Disclaimer: It goes without saying this is my own custom setup. Use this repo at you're own risk
 I take no responsibility for any loss of data or corrupt configuration. Always backup before you run the scripts supplied.
