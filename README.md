@@ -100,12 +100,15 @@ Here are all of the resources used for this project
 especially if you would like to carry out a project like 
 this with your own custom settings.
 
+LF File Viewer: https://github.com/gokcehan/lf - Just type lf in the shell and you will see a very light and simple file viewer <br>
 ZShell Setup: https://christitus.com/zsh/ - An Excellent Tutorial on setting up ZSH from Scratch <br>
 ZShell .zshrc: https://thevaluable.dev/zsh-completion-guide-examples/ - For those who want to further customize their .zshrc file <br>
 Powerlevel10: https://github.com/romkatv/powerlevel10k - The ZShell plugin to add icons and color to the ZShell
 
 Fzf: https://github.com/junegunn/fzf.vim - Fuzzy Finder <br> 
 Used for Vim and the command line you can type ctr + r and then search your zsh history or in vim ctr p search for files <br>
+
+Vim .vimrc: https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/ - For those who want to customize Vim <br>
 
 Vim Plug: https://github.com/junegunn/vim-plug - By far the easiest Vim Plugin Manager <br>
 Vim Dev Icons: https://github.com/ryanoasis/vim-devicons - Adds Icons to Nerd Tree <br>
