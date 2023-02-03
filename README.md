@@ -103,19 +103,19 @@ vim-devicons
 Linters Used:
 shellcheck,tidy,csslint,eslint,puppet-lint,flake8
 
-Fixers Used:
-google-java-format,
-black
+Fixers Used Python:
+black - This will help reformat you're python code correctly
 
 # Resources
 
-Here are all of the resources used for this project for you to check 
+Here are all of the resources used for this project 
 especially if you would like to carry out a project like 
 this with your own custom settings.
 
 ZShell Setup: https://christitus.com/zsh/ - An Excellent Tuitorial on setting up ZSH from Scratch <br>
+FZF: Used for Vim and the command line you can type <ctr> + r and then search your zsh history or <ctr> p and search for files in vim <br>
 Vim Plug: https://github.com/junegunn/vim-plug - By far the easiest Vim Plugin Manager <br>
-Vim Dev Icons: https://github.com/ryanoasis/vim-devicons - Adds Icons to Nerd Tree
+Vim Dev Icons: https://github.com/ryanoasis/vim-devicons - Adds Icons to Nerd Tree <br>
 Vim NerdTree: https://github.com/preservim/nerdtree - Easy to use file viewer menu for Vim <br>
 Vim NerdTree Syntax Highlighting: https://github.com/tiagofumo/vim-nerdtree-syntax-highlight - spice up you're Nerd Tree <br>
 Vim Airline: https://github.com/vim-airline/vim-airline - A status window for Vim <br>
