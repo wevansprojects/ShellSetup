@@ -107,5 +107,19 @@ Fixers Used:
 google-java-format,
 black
 
+# Resources
+
+Here are all of the resources used for this project for you to check 
+especially if you would like to carry out a project like 
+this with your own custom settings.
+
+ZShell Setup: https://christitus.com/zsh/ - An Excellent Tuitorial on setting up ZSH from Scratch
+Vim Plug: https://github.com/junegunn/vim-plug - By far the easiest Vim Plugin Manager
+Vim NerdTree: https://github.com/preservim/nerdtree - Easy to use file viewer menu for Vim
+Vim NerdTree Syntax Highlighting: https://github.com/tiagofumo/vim-nerdtree-syntax-highlight 
+Vim Airline: https://github.com/vim-airline/vim-airline - A status window for Vim
+Vim Airline Themes: https://github.com/vim-airline/vim-airline-themes - Vim Airline Themes
+Vim Ale: https://github.com/dense-analysis/ale - With this we can check code for syntax errors
+
 Disclaimer: It goes without saying this is my own custom setup. Use this repo at you're own risk
 I take no responsibility for any loss of data or corrupt configuration. Always backup before you run the scripts supplied.
