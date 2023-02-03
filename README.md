@@ -57,3 +57,36 @@ Here are two screenshots demonstrating the key features and the Powerlevel10k th
 Example Screenshot:
 
 ![ZshKeyFeatures](https://user-images.githubusercontent.com/73401706/213902149-20eeccad-eef1-4257-bb91-6580790c2d3f.jpg)
+
+# VimSetup
+My Personal Vim Setup with Plugins and Install Scripts please note this is for ZSH Shell ONLY:
+![ExampleScreenshotofMyVimSetup](https://user-images.githubusercontent.com/73401706/213860268-c13e7191-ed49-4ec4-9813-54a1a46679f0.png)
+(Note this screenshot also includes a customized zsh shell look and custom icons please see my zsh repository for this setup).
+
+My Vim Plugin Setup and Workflow:
+With this setup you will find you can use Vim as a substitution
+to vscode in many cases. Vim doesn't have the vscode asthetics 
+but these plugins will get you there.
+Multiple components combined allow me to use vim with auto completion
+Linting for error checking and in some cases Fixers to format code.
+
+Vim Plugins Used:
+ale,
+youcompleteme, 
+nerdtree,
+fzf,
+vim-nerdtree-syntax-highlight,
+vim-puppet,
+vim-airline,
+vim-airline-themes,
+vim-devicons
+
+Linters Used:
+shellcheck,tidy,csslint,eslint,puppet-lint,flake8
+
+Fixers Used:
+google-java-format,
+black
+
+Disclaimer: It goes without saying this is my own custom setup. Use this repo at you're own risk
+I take no responsibility for any loss of data or corrupt configuration. Always backup before you run the scripts supplied.
