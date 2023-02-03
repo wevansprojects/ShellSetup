@@ -73,6 +73,8 @@ To install all of these plugins and Vim go to $HOME/Downloads/SystemSetupGui and
 
 Note: You can skip installing the Nerd Fonts if already done so. 
 Follow all of the other options to install the Vim Plugins.
+![Screenshot from 2023-02-03 11-20-17](https://user-images.githubusercontent.com/73401706/216504791-ebe05e26-be7f-4b8b-b46b-15c30c741fb3.png)
+
 
 # Vim Workflow
 
