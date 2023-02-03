@@ -39,7 +39,7 @@ git clone https://github.com/wevansprojects/ShellSetup.git
 
 Extracting the files:
 Make sure you setup the right permissions for the setup script 
-run: sudo chmod u+x Setup.sh
+run: sudo chmod u+x Setup.sh <br>
 run ./Setup.sh
 
 # ZSH Shell Setup:
