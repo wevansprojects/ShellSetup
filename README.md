@@ -20,7 +20,7 @@ though I prefer to use Amazon Corretto.
 Amazon Correto Link: https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/generic-linux-install.html
 
 PopOS: 
-You will need to runsudo apt install pip3
+You will need to run sudo apt install pip3
 
 Most components come with PopOS so you will only need to install pip3 for
 python packages from the package manager.
