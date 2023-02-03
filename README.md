@@ -2,7 +2,7 @@
 ZSHShell with lf File Viewer and Vim Plugins Supports PopOS 22.04+ Fedora 36+ Rocky Linux 8+
 
 Here is a setup to install ZSHShell with a custom nerd font, the lf file viewer, and Vim with ALE and Plugins.
-This is my custom setup with it configured as you get it. The setup is yours to use
+This is my custom setup with it configured as you get it. The setup is yours to use.
 However consider that it is setup for me so if you do not have PopOS Fedora or Rocky Linux.
 You will need to do some tweaking.
 
@@ -102,6 +102,7 @@ this with your own custom settings.
 
 ZShell Setup: https://christitus.com/zsh/ - An Excellent Tutorial on setting up ZSH from Scratch <br>
 ZShell .zshrc: https://thevaluable.dev/zsh-completion-guide-examples/ - For those who want to further customize their .zshrc file <br>
+Powerlevel10: https://github.com/romkatv/powerlevel10k - The ZShell plugin to add icons and color to the ZShell
 
 Fzf: https://github.com/junegunn/fzf.vim - Fuzzy Finder <br> 
 Used for Vim and the command line you can type ctr + r and then search your zsh history or in vim ctr p search for files <br>
