@@ -6,8 +6,6 @@ This is my custom setup with it configured as you get it. The setup is yours to 
 However consider that it is setup for me so if you do not have PopOS Fedora or Rocky Linux.
 You will need to do some tweaking.
 
-Setup Instructions:
-
 # Prerequisits: 
 
 Fedora: 
