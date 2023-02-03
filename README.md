@@ -47,9 +47,13 @@ To setup the ZShell and lf file viewer
 
 cd to $HOME/Downloads/SystemSetupGui
 run: ./ZShell.sh 
-Select the option below and run options 1 and 2.
+Select the option below.
 
 ![Screenshot from 2023-02-03 11-14-58](https://user-images.githubusercontent.com/73401706/216504102-0728bf75-f2d3-4a65-9f25-3bf78df2f2d9.png)
+
+Then Selection options 1 and 2:
+![Screenshot from 2023-02-03 11-17-33](https://user-images.githubusercontent.com/73401706/216504548-24f71e1c-38bf-4a23-b7c2-5ce22cf9174f.png)
+
 
 As you can see below these are two key features in ZSH that work really well.
 Also note with the configuration file .zshrc I have added some extra features. When you double tab in ZSH you can
