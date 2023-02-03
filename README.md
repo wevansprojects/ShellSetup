@@ -38,9 +38,9 @@ Downloading the Git Repo:
 git clone https://github.com/wevansprojects/ShellSetup.git
 
 Extracting the files:
-Make sure you setup the right permissions for the setup script <br>
-run: sudo chmod u+x Setup.sh <br>
-run ./Setup.sh
+Make sure you setup the right permissions for the setup script run: <br>
+sudo chmod u+x Setup.sh <br>
+./Setup.sh
 
 # ZSH Shell Setup:
 To setup the ZShell and lf file viewer 
