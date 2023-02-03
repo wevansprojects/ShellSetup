@@ -8,8 +8,12 @@ You will need to do some tweaking.
 
 Setup Instructions:
 
-Prerequisits: Fedora: 
-You will need to run sudo dnf install git newt pip3
+# Prerequisits: 
+
+Fedora: 
+You will need to run:
+sudo dnf install git newt pip3
+
 This will install git and the whiptail package which I use to create a menu
 to easily install the components. pip3 is also required for the python packages.
 
@@ -20,7 +24,8 @@ though I prefer to use Amazon Corretto.
 Amazon Correto Link: https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/generic-linux-install.html
 
 PopOS: 
-You will need to run sudo apt install pip3
+You will need to run:
+sudo apt install pip3
 
 Most components come with PopOS so you will only need to install pip3 for
 python packages from the package manager.
@@ -39,7 +44,7 @@ Make sure you setup the right permissions for the setup script
 run: sudo chmod u+x Setup.sh
 run ./Setup.sh
 
-ZSH Shell Setup:
+# ZSH Shell Setup:
 To setup the ZShell and lf file viewer 
 
 cd to $HOME/Downloads/SystemSetupGui
