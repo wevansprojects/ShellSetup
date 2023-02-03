@@ -38,7 +38,7 @@ Downloading the Git Repo:
 git clone https://github.com/wevansprojects/ShellSetup.git
 
 Extracting the files:
-Make sure you setup the right permissions for the setup script 
+Make sure you setup the right permissions for the setup script <br>
 run: sudo chmod u+x Setup.sh <br>
 run ./Setup.sh
 
