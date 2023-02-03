@@ -46,10 +46,10 @@ sudo chmod u+x Setup.sh <br>
 To setup the ZShell and lf file viewer 
 
 cd to $HOME/Downloads/SystemSetupGui
-run: ./ZShell.sh
+run: ./ZShell.sh 
+Select the option below and run options 1 and 2.
 
-![Screenshot from 2023-02-03 11-12-53](https://user-images.githubusercontent.com/73401706/216503892-15ff5ecf-b3e2-4e3b-b5af-d9f901c86621.png)
-
+![Screenshot from 2023-02-03 11-14-58](https://user-images.githubusercontent.com/73401706/216504102-0728bf75-f2d3-4a65-9f25-3bf78df2f2d9.png)
 
 As you can see below these are two key features in ZSH that work really well.
 Also note with the configuration file .zshrc I have added some extra features. When you double tab in ZSH you can
