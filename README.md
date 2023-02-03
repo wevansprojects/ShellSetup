@@ -113,7 +113,8 @@ especially if you would like to carry out a project like
 this with your own custom settings.
 
 ZShell Setup: https://christitus.com/zsh/ - An Excellent Tuitorial on setting up ZSH from Scratch <br>
-FZF: Used for Vim and the command line you can type <ctr> + r and then search your zsh history or <ctr> p and search for files in vim <br>
+Fzf: https://github.com/junegunn/fzf.vim - Fuzzy Finder <br> 
+Used for Vim and the command line you can type ctr + r and then search your zsh history or in vim ctr p search for files <br>
 Vim Plug: https://github.com/junegunn/vim-plug - By far the easiest Vim Plugin Manager <br>
 Vim Dev Icons: https://github.com/ryanoasis/vim-devicons - Adds Icons to Nerd Tree <br>
 Vim NerdTree: https://github.com/preservim/nerdtree - Easy to use file viewer menu for Vim <br>
