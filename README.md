@@ -1,5 +1,5 @@
 # ShellSetup
-ZSHShell with lf File Viewer and Vim Plugins
+ZSHShell with lf File Viewer and Vim Plugins Supports PopOS 22.04+ Fedora 36+ Rocky Linux 8+
 
 Here is a setup to install ZSHShell the lf file viewer and Vim with ALE and Plugins.
 This is my custom setup with it configured as you get it. The setup is yours to use
