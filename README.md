@@ -1,7 +1,7 @@
 # ShellSetup
 ZSHShell with lf File Viewer and Vim Plugins Supports PopOS 22.04+ Fedora 36+ Rocky Linux 8+
 
-Here is a setup to install ZSHShell the lf file viewer and Vim with ALE and Plugins.
+Here is a setup to install ZSHShell with a custom nerd font, the lf file viewer, and Vim with ALE and Plugins.
 This is my custom setup with it configured as you get it. The setup is yours to use
 However consider that it is setup for me so if you do not have PopOS Fedora or Rocky Linux.
 You will need to do some tweaking.
@@ -48,6 +48,9 @@ To setup the ZShell and lf file viewer
 cd to $HOME/Downloads/SystemSetupGui
 run: ./ZShell.sh
 
+![Screenshot from 2023-02-03 11-12-53](https://user-images.githubusercontent.com/73401706/216503892-15ff5ecf-b3e2-4e3b-b5af-d9f901c86621.png)
+
+
 As you can see below these are two key features in ZSH that work really well.
 Also note with the configuration file .zshrc I have added some extra features. When you double tab in ZSH you can
 interact with the shell and select the command option from the provided list instead of having to scroll through each
@@ -58,7 +61,17 @@ Example Screenshot:
 
 ![ZshKeyFeatures](https://user-images.githubusercontent.com/73401706/213902149-20eeccad-eef1-4257-bb91-6580790c2d3f.jpg)
 
-# VimSetup
+# Vim Setup
+To install all of these plugins and Vim go to $HOME/Downloads/SystemSetupGui and run:
+./VimSetup.sh
+
+![Screenshot from 2023-02-03 11-13-35](https://user-images.githubusercontent.com/73401706/216503978-3f1e9a7e-f7c2-425d-b812-86600d1f17af.png)
+
+Note: You can skip installing the Nerd Fonts if already done so. 
+Follow all of the other options to install the Vim Plugins.
+
+# Vim Workflow
+
 My Personal Vim Setup with Plugins and Install Scripts please note this is for ZSH Shell ONLY:
 ![ExampleScreenshotofMyVimSetup](https://user-images.githubusercontent.com/73401706/213860268-c13e7191-ed49-4ec4-9813-54a1a46679f0.png)
 (Note this screenshot also includes a customized zsh shell look and custom icons please see my zsh repository for this setup).
