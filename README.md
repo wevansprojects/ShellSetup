@@ -52,8 +52,7 @@ cd to $HOME/Downloads/SystemSetupGui
 run: ./ZShell.sh 
 Select the option below.
 
-![Screenshot from 2023-02-04 22-55-21](https://user-images.githubusercontent.com/73401706/216774157-f0411230-ca15-48a8-ae69-975010a016db.png)
-
+![Screenshot from 2023-02-04 22-55-21](https://user-images.githubusercontent.com/73401706/216774232-c8cab16b-9aef-4cf6-9e22-5071fb02080a.png)
 
 Then Selection options 1 and 2:
 ![Screenshot from 2023-02-03 11-17-33](https://user-images.githubusercontent.com/73401706/216504548-24f71e1c-38bf-4a23-b7c2-5ce22cf9174f.png)
