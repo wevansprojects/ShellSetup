@@ -11,6 +11,10 @@ I also include my own vimrc zshrc and lfrc files for you to view. <br>
 
 # Prerequisits: 
 
+Nerd Fonts:
+You cannot see the icons without a font from this website.
+Install the Nerd Font from the menu or download it from https://www.nerdfonts.com/
+
 Fedora: 
 You will need to run:
 sudo dnf install git newt pip3
