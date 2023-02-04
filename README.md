@@ -69,8 +69,6 @@ as they appear in Bash.Also incorporated are customized powerlevel10k shell them
 Here are two screenshots demonstrating the key features and the Powerlevel10k theme.
 
 Example Screenshot: <br>
-<br>
-![zshdemo](https://user-images.githubusercontent.com/73401706/216773512-313d5862-6886-4e88-b559-921292bc751f.gif)
 
 ![ZshKeyFeatures](https://user-images.githubusercontent.com/73401706/213902149-20eeccad-eef1-4257-bb91-6580790c2d3f.jpg)
 
