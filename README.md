@@ -70,6 +70,9 @@ Here are two screenshots demonstrating the key features and the Powerlevel10k th
 
 Example Screenshot: <br>
 
+![zsh](https://user-images.githubusercontent.com/73401706/216783115-3e435f37-3664-4a60-97f2-f54bc48fb473.gif)
+
+
 ![ZshKeyFeatures](https://user-images.githubusercontent.com/73401706/213902149-20eeccad-eef1-4257-bb91-6580790c2d3f.jpg)
 
 # Vim Setup
