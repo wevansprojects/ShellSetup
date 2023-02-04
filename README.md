@@ -58,9 +58,9 @@ Select the option below.
 
 ![Screenshot from 2023-02-04 22-55-21](https://user-images.githubusercontent.com/73401706/216774232-c8cab16b-9aef-4cf6-9e22-5071fb02080a.png)
 
-Then Selection options 1 and 2:
-![Screenshot from 2023-02-03 11-17-33](https://user-images.githubusercontent.com/73401706/216504548-24f71e1c-38bf-4a23-b7c2-5ce22cf9174f.png)
+Then Selection options 1 and 2 to install the nerd font or just option 2 if you have a nerd font in use:
 
+![Screenshot from 2023-02-04 23-06-54](https://user-images.githubusercontent.com/73401706/216774682-92876e2c-ac04-4c6a-a898-e459cc15997f.png)
 
 As you can see below these are two key features in ZSH that work really well.
 Also note with the configuration file .zshrc I have added some extra features. When you double tab in ZSH you can
