@@ -68,12 +68,9 @@ interact with the shell and select the command option from the provided list ins
 as they appear in Bash.Also incorporated are customized powerlevel10k shell themes for PopOS, Fedora, Rocky Linux. 
 Here are two screenshots demonstrating the key features and the Powerlevel10k theme.
 
-Example Screenshot: <br>
+Example: <br>
 
-![zsh](https://user-images.githubusercontent.com/73401706/216783115-3e435f37-3664-4a60-97f2-f54bc48fb473.gif)
-
-
-![ZshKeyFeatures](https://user-images.githubusercontent.com/73401706/213902149-20eeccad-eef1-4257-bb91-6580790c2d3f.jpg)
+![example](https://user-images.githubusercontent.com/73401706/216865834-073fc0d9-3eca-4706-a178-857687e069af.gif)
 
 # Vim Setup
 To install all of these plugins and Vim go to $HOME/Downloads/SystemSetupGui and run:
