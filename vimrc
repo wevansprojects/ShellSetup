@@ -1,7 +1,7 @@
-setlocal spell spelllang=en_us
+"setlocal spell spelllang=en_us
 set t_Co=256
 set encoding=UTF-8
-set nospell
+"autocmd FileType markdown,text setlocal spell
 set hlsearch
 set number
 set mouse=a
@@ -11,47 +11,46 @@ set clipboard+=autoselect guioptions+=a
 nnoremap <LeftMouse> <LeftMouse>i
 filetype plugin indent on
 " show existing tab with 2 spaces width
-set tabstop=6
+set tabstop=4
 " when indenting with '>', use 2 spaces width
-set shiftwidth=6
+set shiftwidth=4
 " On pressing tab, insert 2 spaces
 set expandtab
 set statusline+=%F
 set modeline
 set is hls
 set background=dark
-filetype plugin on
-set omnifunc=syntaxcomplete#Complete
-set omnifunc=htmlcomplete#CompleteTags
-set omnifunc=csscomplete#CompleteCSS
-set omnifunc=csscomplete#CompleteHTML
-set omnifunc=phpcomplete#CompletePHP
 syntax on
 " ALE: reasonable defaults from webinstall.dev/vim-ale
 call plug#begin('~/.vim/autoload/plugged')
 Plug 'dense-analysis/ale'
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'rodjek/vim-puppet'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'HugoNikanor/vim-breakpoint'
+Plug 'tpope/vim-scriptease'
+Plug 'chr4/nginx.vim'
+Plug 'hashivim/vim-terraform'
+Plug 'junegunn/fzf'
+Plug 'Exafunction/windsurf.vim'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
-"let g:ycm_global_ycm_extra_conf = '/home/williamjevans/.vim/autoload/plugged/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.company'
 let g:airline#extensions#ale#enabled = 1
+let g:codeium_no_map_tab = 1
 let g:webdevicons_enable_airline_tabline = 1
 let g:webdevicons_enable_airline_statusline = 1
-let g:ale_linters = {'python': ['flake8'], 'html': ['tidy'], 'css': ['csslint'], 'javascript': ['eslint'], 'java' : ['javac'], 'puppet': ['puppetlint']} 
+let g:ale_linters = {'python': ['flake8'], 'html': ['tidy'], 'css': ['csslint'], 'javascript': ['eslint'], 'java' : ['javac'], 'puppet': ['puppetlint']}
 let g:ale_fixers ={'python':['black'], 'javascript': ['eslint']}
-"For Javascript run npm init @eslint/config before running a project"
-"npm init @eslint/config 
-let g:ale_fix_on_save = 1 
-let g:ale_sign_error = '-->'
+let g:ale_fix_on_save = 1
+let g:ale_completion_enabled = 1
+set completeopt=menu,menuone,noselect
+let g:ale_sign_error = '>>'
 let g:ale_sign_warning = '--'
 let g:airline_theme='bubblegum'
-"NerdTree 
+"NerdTree
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
 
@@ -99,4 +98,3 @@ autocmd BufNewFile *.java 6put = \"           }\"|$
 autocmd BufNewFile *.java 7put = \"   }\"|$
 " PLUGIN: FZF
 nnoremap <C-p> :<C-u>FZF<CR>
-set guifont=FuraMono_NF:h14
