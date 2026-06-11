@@ -34,6 +34,9 @@ _comp_options+=(globdots)
 # End of lines added by compinstall
 bindkey ";5C" forward-word
 bindkey ";5D" backward-word
+bindkey ';5A' beginning-of-line
+bindkey ';5B' end-of-line
+
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
@@ -66,7 +69,7 @@ alias nr='sudo systemctl reload nginx.service'
 alias phpr='sudo systemctl reload php8.2-fpm.service'
 
 #Update Commands
-alias sup='/home/debuser/./checksystemupdates'
+alias sup='~/./checksystemupdates'
 alias up='sudo apt update; sudo apt upgrade'
 
 #Trash CLI Alias (prevention of rm usage)
@@ -76,11 +79,7 @@ alias tr='sudo trash-restore'
 alias te='sudo trash-empty'
 alias rm='echo try using trash-cli commands instead!'
 alias 'rm -rf'='echo try using trash-cli commands instead!'
-alias 'PUML'='/home/debuser/Scripts/Java/Simple_Projects/PlantUML/./UMLViewer.sh'
-
-# IDE Aliases
-alias 'idea'="/home/debuser/IDEs/intellij-idea-community-edition/bin/idea"
-alias 'charm'="/home/debuser/IDEs/pycharm-community/bin/pycharm"
+alias 'PUML'='~/Scripts/Java/Simple_Projects/PlantUML/./UMLViewer.sh'
 
 # History Formatting
 export HISTTIMEFORMAT="%d/%m/%y %T "
@@ -88,6 +87,7 @@ export HISTTIMEFORMAT="%d/%m/%y %T "
 # Additional Path Values
 export PATH=$PATH:/usr/local/go/bin
 export PYTHONBREAKPOINT="pudb.set_trace"
+export PATH=$PATH:/home/debuser/.local/bin
 
 #BatCat
 export BAT_THEME="Visual Studio Dark+"
@@ -98,6 +98,10 @@ export PATH=~/.npm-global/bin:$PATH
 #Dot Net Avalonia
 export DOTNET_ROLL_FORWARD=Major
 
+#NoiseTorch - Audio Recording Noise Suppressor
+alias 'noisetorch'="~/.local/bin/./noisetorch"
+
+
 export LC_ALL=en_US.UTF-8
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH=$PATH:/.vim/pack/plugins/start/fzf/bin
@@ -107,7 +111,13 @@ complete -o nospace -C /usr/bin/terraform terraform
 # Load lf icons only if the file exists
 [[ -f ~/.config/lf/lf_icons ]] && source ~/.config/lf/lf_icons
 
+# LibreThinker AI Configuration
+export LT_LLM_MODEL="gemini/gemini-3-pro-preview"
+export LT_LLM_API_KEY=""
+
+
 #Zsh Auto Suggestions
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
