@@ -20,6 +20,7 @@ set statusline+=%F
 set modeline
 set is hls
 set background=dark
+let g:fzf_binary_path = '~/.vim/autoload/plugged/fzf/bin/fzf'
 syntax on
 " ALE: reasonable defaults from webinstall.dev/vim-ale
 call plug#begin('~/.vim/autoload/plugged')
