@@ -20,8 +20,8 @@ set statusline+=%F
 set modeline
 set is hls
 set background=dark
-let g:fzf_binary_path = '~/.vim/autoload/plugged/fzf/bin/fzf'
 syntax on
+let g:fzf_binary_path = '~/.vim/autoload/plugged/fzf/bin/fzf'
 " ALE: reasonable defaults from webinstall.dev/vim-ale
 call plug#begin('~/.vim/autoload/plugged')
 Plug 'dense-analysis/ale'
@@ -35,7 +35,10 @@ Plug 'HugoNikanor/vim-breakpoint'
 Plug 'tpope/vim-scriptease'
 Plug 'chr4/nginx.vim'
 Plug 'hashivim/vim-terraform'
-Plug 'junegunn/fzf'
+" PLUGIN: FZF
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+nnoremap <C-p> :<C-u>FZF<CR>
 Plug 'Exafunction/windsurf.vim'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
@@ -97,5 +100,3 @@ autocmd BufNewFile *.java 4put = \"        System.out.println\(\\"\\"\);\"|$
 autocmd BufNewFile *.java 5put = \"\"|$
 autocmd BufNewFile *.java 6put = \"           }\"|$
 autocmd BufNewFile *.java 7put = \"   }\"|$
-" PLUGIN: FZF
-nnoremap <C-p> :<C-u>FZF<CR>
