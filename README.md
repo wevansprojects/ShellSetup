@@ -1,5 +1,5 @@
 # ShellSetup
-ZSHShell with lf File Viewer and Vim Plugins Supports PopOS 22.04+ Fedora 36+ Rocky Linux 8+
+ZSHShell with lf File Viewer and Vim Plugins Supports Debian/Ubuntu Based Redhat Based
 
 Here is a setup to install ZSHShell with a custom nerd font, the lf file viewer, and Vim with ALE and Plugins.
 This is my custom setup with it configured as you get it. The setup is yours to use.
